@@ -373,6 +373,55 @@ small{
 }
 .post-img{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 4px;
+}
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-icons div img{
+    width: 18px;
+    margin-right: 10px;
+
+
+}
+.activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.post-rofile-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+.post-rofile-icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-row a{
+    color: #9a9a9a;
+}
+
+.load-more-btn{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.footer{
+    text-align: center;
+    columns: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
 }
